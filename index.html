@@ -7,51 +7,51 @@
 
     <body>
         <!-- Navigation Bar -->
-        <ul class="nav">
-            <li>Color</li>
-            <li>Fonts</li>
-            <li>Text Styles</li>
-        </ul>
+        <div class="nav">
+            <a href="#colors">Colors</a>
+            <a href="#fonts">Fonts</a>
+            <a href="#text styles">Text Styles</a>
+        </div>
 
         <!-- Webpage title -->
         <h1>My Website Style Guide</h1>
 
         <!-- Colors Container -->
         <div>
-            <h2>Colors</h2>
+            <h2 id="colors">Colors</h2>
 
             <!-- Purple -->
-            <div>
+            <div class="purple">
                 <p>Purple</p>
                 <p>#C119E3</p>
             </div>
 
             <!-- Pink -->
-            <div>
+            <div class="pink">
                 <p>Pink</p>
                 <p>#FF00E1</p>
             </div>
 
             <!-- Blue -->
-            <div>
+            <div class="blue">
                 <p>Blue</p>
                 <p>#135AF2</p>
             </div>
 
             <!-- Red -->
-            <div>
+            <div class="red">
                 <p>Red</p>
                 <p>#F00A28</p>
             </div>
 
             <!-- Black -->
-            <div>
+            <div class="black">
                 <p>Black</p>
                 <p>#000 or #000000</p>
             </div>
 
             <!-- White -->
-            <div>
+            <div class="white">
                 <p>White</p>
                 <p>#FFF or #FFFFFF</p>
             </div>
@@ -59,12 +59,67 @@
 
         <!-- Fonts Container -->
         <div>
-            <h2>Fonts</h2>
+            <h2 id="fonts">Fonts</h2>
+            
+            <!-- Arial font container -->
+            <div class="arial">
+                <h3>Arial</h3>
+                <p>Sally sells seashells by the seashore.</p>
+                <p class="bold">Sally sells seashells by the seashore.</p>
+                <p class="italic">Sally sells seashells by the seashore.</p>
+            </div>
+
+            <!-- Times New Roman Container -->
+            <div class="timesNewRoman">
+                <h3>Times New Roman</h3>
+                <p>Sally sells seashells by the seashore.</p>
+                <p class="bold">Sally sells seashells by the seashore.</p>
+                <p class="italic">Sally sells seashells by the seashore.</p>
+            </div>
+
+            <!-- Calibri Container -->
+            <div class="calibri">
+                <h3>Calibri</h3>
+                <p>Sally sells seashells by the seashore.</p>
+                <p class="bold">Sally sells seashells by the seashore.</p>
+                <p class="italic">Sally sells seashells by the seashore.</p>
+            </div>
         </div>
 
         <!-- Text Styles Container -->
         <div>
-            <h2>Text Styles</h2>
+            <h2 id="text styles">Text Styles</h2>
+
+            <!-- H1 Container -->
+            <div class="h1">
+                <h1>H1: Main page heading</h1>
+                <ul>
+                    <li>Font-weight: 700px (bold)</li>
+                    <li>Font-size: 26px</li>
+                    <li>Font-family: Times New Roman</li>
+                </ul>
+            </div>
+
+            <!-- H2 Container -->
+            <div class="h2">
+                <h2>H2: Subheading</h2>
+                <ul>
+                    <li>Font-weight: 500px</li>
+                    <li>Font-size: 18px</li>
+                    <li>Font-family: Arial</li>
+                </ul>
+            </div>
+            
+        </div>
+
+        <!-- P Container -->
+        <div class="p">
+            <p>P: Paragraph text</p>
+            <ul>
+                <li>Font-weight: 400px (regular)</li>
+                <li>Font-size: 14px</li>
+                <li>Font-family: Calibri</li>
+            </ul>
         </div>
     </body>
 </html>
