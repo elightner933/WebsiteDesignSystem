@@ -10,7 +10,7 @@ a {
   padding: 0 20px;
 }
 
-div {
+.colors div, .fonts div {
     display: inline-block;
 }
 
@@ -78,4 +78,30 @@ div {
 
 .arial .italic, .timesNewRoman .italic, .calibri .italic {
     font-style: italic;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.timesNewRoman {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.calibri {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Text Styles styles */
+#textStyles {
+  text-align: center;
+}
+
+.textStyles {
+  padding-left: 20px;
+  list-style-position: inside;
+}
+
+ul {
+  text-align: left;
 }
